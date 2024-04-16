@@ -1,4 +1,4 @@
-package com.clasenmateus.notes_app
+package com.clasenmateus.notes_app.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
