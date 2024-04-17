@@ -150,6 +150,9 @@ dependencies {
 
     // Kotlin Extensions and Coroutines support for Room
     implementation (libs.androidx.room.ktx.v230)
+
+    // HILT
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 }
 
 // Allow references to generated code
