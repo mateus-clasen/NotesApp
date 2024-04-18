@@ -7,5 +7,5 @@ import dagger.hilt.android.HiltAndroidApp
  * Created by Mateus H. Clasen on 16/04/2024.
  */
 @HiltAndroidApp
-class NoteApp: Application() {
+class NotesApp: Application() {
 }

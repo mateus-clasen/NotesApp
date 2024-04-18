@@ -55,13 +55,14 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.11"
+        kotlinCompilerExtensionVersion = "1.5.0"
     }
 }
 
 dependencies {
 
     implementation(libs.hilt.android)
+    implementation(libs.androidx.navigation.compose)
     kapt(libs.hilt.android.compiler)
 
 
@@ -152,7 +153,9 @@ dependencies {
     implementation (libs.androidx.room.ktx.v230)
 
     // HILT
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
 }
 
 // Allow references to generated code
