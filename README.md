@@ -20,19 +20,19 @@ O objetivo deste projeto é criar um aplicativo de notas que permita aos usuári
 
 ## Screenshots
 
-## Home Screen
+### Home Screen
 ![Home Screen](https://i.ibb.co/8Dsqwqr/home-screen.jpg)
 
-## Adicionando Notas
+### Adicionando Notas
 ![Adding Notes](https://i.ibb.co/NjJMmwf/adding-saving-notes.jpg)
 
-## Listando Notas
+### Listando Notas
 ![Sorting Notes](https://i.ibb.co/9GGbdF8/sorting.jpg)
 
-## Excluindo Notas
+### Excluindo Notas
 ![Deleting Notes](https://i.ibb.co/Hr41pgs/excluindo-imagem.jpg)
 
-## Desfazendo Exclusão
+### Desfazendo Exclusão
 ![Undo Deleting](https://i.ibb.co/6Z3TLJt/desfazer-remocao.jpg)
 
 
