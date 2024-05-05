@@ -8,7 +8,7 @@ plugins {
     kotlin("kapt")
     id("com.google.dagger.hilt.android")
 
-    id ("com.google.devtools.ksp")
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -62,7 +62,6 @@ android {
 dependencies {
 
     implementation(libs.hilt.android)
-    implementation(libs.androidx.navigation.compose)
     kapt(libs.hilt.android.compiler)
 
 
@@ -130,7 +129,6 @@ dependencies {
     kapt("androidx.room:room-compiler:$room_version")
     // To use Kotlin Symbol Processing (KSP)
 
-
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation(libs.androidx.room.ktx)
 
@@ -150,12 +148,12 @@ dependencies {
     implementation(libs.androidx.room.paging)
 
     // Kotlin Extensions and Coroutines support for Room
-    implementation (libs.androidx.room.ktx.v230)
+    implementation(libs.androidx.room.ktx.v230)
 
     // HILT
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
-    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 }
 
 // Allow references to generated code
